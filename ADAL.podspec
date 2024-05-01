@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
   }
   s.source_files = "ADALiOS/ADALiOS/**/*.{h,m}"
   s.resources    = "ADALiOS/ADALiOS/*.storyboard"
+  s.resource_bundle = { "ADAL" => "ADALiOS/ADALiOS/PrivacyInfo.xcprivacy" }
   s.preserve_paths = "ADALiOS/ADALiOS/**/*.{h,m}"
   s.requires_arc = true
 end
